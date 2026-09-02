@@ -39,7 +39,7 @@ button, input, textarea { font: inherit; }
 .btn-primary { background: linear-gradient(135deg, var(--cyan), var(--cyan-deep)); color: white; box-shadow: 0 10px 30px rgba(0, 139, 185, .22); }
 .btn-outline { color: #fff; border-color: rgba(255,255,255,.65); background: rgba(5,29,48,.18); backdrop-filter: blur(8px); }
 .hero { min-height: 655px; position: relative; overflow: hidden; background: var(--navy-950); color: #fff; }
-.hero-photo { position:absolute; inset:0 0 0 34%; background-image: url('./assets/hero-terminal.jpg'); background-size: cover; background-position: center; }
+.hero-photo { position:absolute; inset:0 0 0 34%; background-image: url('https://images.pexels.com/photos/24244233/pexels-photo-24244233.jpeg?auto=compress&cs=tinysrgb&w=2000'); background-size: cover; background-position: center; }
 .hero-shade { position:absolute; inset:0; background: linear-gradient(90deg, #031b2d 0%, rgba(3,27,45,.96) 28%, rgba(3,27,45,.72) 48%, rgba(3,27,45,.10) 78%, rgba(3,27,45,.08) 100%), linear-gradient(180deg, rgba(2,18,31,.08), rgba(2,18,31,.32)); }
 .hero-content { position:relative; z-index:2; padding-top: 174px; padding-bottom: 132px; }
 .hero-copy { max-width: 620px; }
@@ -83,7 +83,7 @@ button, input, textarea { font: inherit; }
 .experience-number { display:block; font-size:46px; line-height:1; font-weight:800; color:var(--cyan-deep); }
 .experience-card strong { display:block; margin:8px 0 6px; }
 .experience-card p { color:var(--muted); font-size:12px; margin:0; }
-.markets { padding:110px 0; color:#fff; background: linear-gradient(110deg, rgba(3,26,43,.98), rgba(4,67,95,.9)), url('./assets/hero-terminal.jpg') center/cover; }
+.markets { padding:110px 0; color:#fff; background: linear-gradient(110deg, rgba(3,26,43,.98), rgba(4,67,95,.9)), url('https://images.pexels.com/photos/24244233/pexels-photo-24244233.jpeg?auto=compress&cs=tinysrgb&w=2000') center/cover; }
 .markets-inner { max-width:850px; margin-left:max(calc((100vw - 1180px)/2), 24px); }
 .markets-inner p:not(.eyebrow) { max-width:690px; color:rgba(255,255,255,.78); margin:24px 0 30px; font-size:17px; }
 .split-heading { display:flex; justify-content:space-between; align-items:end; gap:50px; margin-bottom:42px; }
