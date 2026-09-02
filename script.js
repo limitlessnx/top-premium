@@ -15,6 +15,18 @@ if (menuButton && nav) {
   });
 }
 
+// Keep deployed visuals aligned with the approved/local concept assets.
+const heroPhoto = document.querySelector('.hero-photo');
+if (heroPhoto) heroPhoto.style.backgroundImage = "url('./assets/hero-terminal.jpg')";
+
+const marketsSection = document.querySelector('.markets');
+if (marketsSection) {
+  marketsSection.style.backgroundImage = "linear-gradient(110deg, rgba(3,26,43,.98), rgba(4,67,95,.9)), url('./assets/hero-terminal.jpg')";
+}
+
+const aboutImage = document.querySelector('.about-visual img');
+if (aboutImage) aboutImage.src = './assets/about-facility.jpg';
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
